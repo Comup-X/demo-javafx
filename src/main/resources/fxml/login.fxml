@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.comup.demo.javafx.system.controller.LoginController">
+    <children>
+        <TextField fx:id="_usernameTxt" layoutX="120.0" layoutY="102.0" promptText="用户名"/>
+        <TextField fx:id="_passwordTxt" layoutX="120.0" layoutY="158.0" promptText="密码"/>
+    </children>
+</AnchorPane>
